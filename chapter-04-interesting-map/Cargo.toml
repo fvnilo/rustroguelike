@@ -1,5 +1,5 @@
 [package]
-name = "rustroguelike"
+name = "chapter-04-interesting-map"
 version = "0.1.0"
 authors = ["Ny Fanilo Andrianjafy <ny.fanilo@gmail.com>"]
 edition = "2018"
@@ -8,11 +8,5 @@ edition = "2018"
 
 [dependencies]
 rltk = { version = "0.8.0" }
-
-[workspace]
-members = [ 
-  "chapter-01-helloworld",
-  "chapter-02-ecs",
-  "chapter-03-basic-map",
-  "chapter-04-interesting-map"
-]
+specs = "0.16.1"
+specs-derive = "0.4.1"
